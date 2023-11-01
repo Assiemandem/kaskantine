@@ -72,8 +72,26 @@ nav ul{
 section{
     padding: 10px;
     margin: 20px;
-    border-radius: 20px;
-    border: solid #96e072 10px;
+    border-radius: 20px 60px;
+    border: solid #96e072 12px;
     background-color: #508e2f
     
+}
+
+
+
+
+
+/* LEES MEER KNOP*/
+
+
+section a{
+    background-color: #de541e;
+    border-radius: 10px;
+    padding: 10px;
+    font-size: 20px;
+    color: white;
+    text-decoration: none;
+    border: white solid 5px;
+    margin: 69px;
 }
