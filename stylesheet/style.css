@@ -7,27 +7,44 @@
     font-style: normal;
 }
 
-header{
+
+/* ALGEMENE OPMAAK */
+
+header {
     background-color: #BFFFFF;
 }
 
-body{
+header img{
+    width: 100%;
+    animation: wiggle 10s ease-in-out infinite ;
+}
+
+body {
     background-color: #BFFFFF;
 }
 
 
-h2{
+h2 {
     font-family: 'Grandstander';
     color: white;
 }
 
-a{
+a {
     font-family: 'Grandstander';
 }
 
-p{
+p {
     font-family: 'handlee';
     color: white;
+}
+
+section{
+    box-shadow: -10px 10px;
+    padding: 10px;
+    margin: 20px;
+    border-radius: 20px 60px;
+    border: solid #96e072 12px;
+    background-color: #508e2f
 }
 
 
@@ -36,7 +53,11 @@ p{
 
 nav{
     display: inline;
-    
+}
+nav ul{
+    box-shadow: -5px 7px;
+    border-radius: 100px;
+    background-color: #96e072;   
 }
 
 nav li{
@@ -49,49 +70,68 @@ nav li a{
     text-decoration: none;
     color: white;
 }
-nav ul{
-    border-radius: 100px;
-    background-color: #96e072;
-    
-}
-
-
-.selected{
-    background-color: #de541e;
-    border-radius: 100px;
-    font-size: 20px;
-}
 
 .orange{
     padding-left: 20px;
     padding-right: 20px;
 }
 
-
-
-section{
-    padding: 10px;
-    margin: 20px;
-    border-radius: 20px 60px;
-    border: solid #96e072 12px;
-    background-color: #508e2f
-    
+.selected{
+    background-color: #de541e;
+    border-radius: 100px;
+    font-size: 20px;
+    animation: pulse 4s ease-in-out infinite;
 }
-
 
 
 
 
 /* LEES MEER KNOP*/
 
-
 section a{
+    box-shadow: -4px 5px black;
     background-color: #de541e;
-    border-radius: 10px;
+    border-radius: 20px;
     padding: 10px;
     font-size: 20px;
     color: white;
     text-decoration: none;
     border: white solid 5px;
     margin: 69px;
+}
+
+
+
+/* PIJLTJE NAAR BENEDEN*/ 
+
+.arrow_down{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 18%;
+    animation: move_down 4s ease-in-out infinite;
+}
+
+/* ANIMATIES */
+
+@keyframes move_down {
+    0%   { transform:translate(0,-0.625em) }
+    50%  { transform:translate(0,0.225em) }
+    100% { transform:translate(0,-0.625em) }
+  }
+
+
+  @keyframes pulse {
+    0%  {transform:scale(1.09)}
+    50% {transform:scale(1.13)}
+    100%{transform:scale(1.09)} 
+
+}
+
+@keyframes wiggle {
+    0%  {transform:rotate(0deg);}
+    25% {transform:rotate(1.5deg);}
+    50%{transform:rotate(0deg);}
+    75%{transform:rotate(-1.5deg);}
+    100%{transform:rotate(0deg)}
 }
