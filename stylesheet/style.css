@@ -1,0 +1,20 @@
+@import url('https://fonts.googleapis.com/css2?family=Grandstander:wght@700&family=Raleway:wght@500&display=swap');
+@font-face {
+    font-family: 'handleeregular';
+    src: url('handlee-regular-webfont.woff2') format('woff2'),
+         url('handlee-regular-webfont.woff') format('woff');
+    font-weight: bolder;
+    font-style: normal;
+
+}
+h2{
+    font-family: 'Grandstander';
+}
+
+a{
+    font-family: 'Grandstander';
+}
+
+p{
+    font-family: 'handlee';
+}
