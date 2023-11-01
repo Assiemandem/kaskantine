@@ -5,10 +5,20 @@
          url('handlee-regular-webfont.woff') format('woff');
     font-weight: bolder;
     font-style: normal;
-
 }
+
+header{
+    background-color: #BFFFFF;
+}
+
+body{
+    background-color: #BFFFFF;
+}
+
+
 h2{
     font-family: 'Grandstander';
+    color: white;
 }
 
 a{
@@ -17,4 +27,53 @@ a{
 
 p{
     font-family: 'handlee';
+    color: white;
+}
+
+
+
+/* NAVIGATIE BALK*/
+
+nav{
+    display: inline;
+    
+}
+
+nav li{
+    display: inline-block;
+    padding: 8px;
+    font-size: 18px;
+}
+
+nav li a{
+    text-decoration: none;
+    color: white;
+}
+nav ul{
+    border-radius: 100px;
+    background-color: #96e072;
+    
+}
+
+
+.selected{
+    background-color: #de541e;
+    border-radius: 100px;
+    font-size: 20px;
+}
+
+.orange{
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+
+
+section{
+    padding: 10px;
+    margin: 20px;
+    border-radius: 20px;
+    border: solid #96e072 10px;
+    background-color: #508e2f
+    
 }
