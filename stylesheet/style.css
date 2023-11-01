@@ -9,7 +9,6 @@
 
 
 /* ALGEMENE OPMAAK */
-
 header {
     background-color: #BFFFFF;
 }
@@ -50,7 +49,6 @@ section{
 
 
 /* NAVIGATIE BALK*/
-
 nav{
     display: inline;
 }
@@ -87,7 +85,6 @@ nav li a{
 
 
 /* LEES MEER KNOP*/
-
 section a{
     box-shadow: -4px 5px black;
     background-color: #de541e;
@@ -103,7 +100,6 @@ section a{
 
 
 /* PIJLTJE NAAR BENEDEN*/ 
-
 .arrow_down{
     display: block;
     margin-left: auto;
@@ -112,8 +108,9 @@ section a{
     animation: move_down 4s ease-in-out infinite;
 }
 
-/* ANIMATIES */
 
+
+/* ANIMATIES */
 @keyframes move_down {
     0%   { transform:translate(0,-0.625em) }
     50%  { transform:translate(0,0.225em) }
