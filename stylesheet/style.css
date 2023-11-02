@@ -1,13 +1,17 @@
-@import url('https://fonts.googleapis.com/css2?family=Grandstander:wght@700&family=Raleway:wght@500&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Dekko&family=Grandstander:wght@100;700&family=Raleway:wght@500&family=Roboto:ital,wght@1,900&display=swap');
 /* ALGEMENE OPMAAK */
+@import url('https://fonts.googleapis.com/css2?family=Grandstander:wght@700&family=Raleway:wght@500&display=swap');
 
+@import url('https://fonts.googleapis.com/css2?family=Dekko&family=Grandstander:wght@100;700&family=Raleway:wght@500&family=Roboto:ital,wght@1,900&display=swap');
+
+html{
+    scroll-behavior: smooth;
+}
 
 header {
     background-color: #BFFFFF;
 }
 
-header img{
+header img {
     width: 100%;
     animation: wiggle 8s ease-in-out infinite ;
 }
@@ -15,7 +19,6 @@ header img{
 body {
     background-color: #BFFFFF;
 }
-
 
 h2 {
     font-family: 'Grandstander';
@@ -32,7 +35,7 @@ p {
     color: white;
 }
 
-section{
+section {
     box-shadow: -10px 10px;
     padding: 10px;
     margin: 20px;
@@ -44,13 +47,13 @@ section{
 
 
 /* NAVIGATIE BALK*/
-nav{
+nav {
     display: inline-block;
-    margin-left: 25px;
+    margin-left: 23px;
     margin-top: 10px;
 }
 
-.navcontainer{
+.navcontainer {
     box-shadow: -5px 7px;
     border-radius: 100px;
     background-color: #96e072;
@@ -58,13 +61,13 @@ nav{
     padding-right: 5px;  
 }
 
-nav div div{
+nav div div {
     display: inline-block;
     padding: 8px;
     font-size: 18px;
 }
 
-nav div a{
+nav div a {
     text-decoration: none;
     color: white;
 }
@@ -97,7 +100,6 @@ nav div a{
     75%{transform:rotate(-1.5deg);}
     100%{transform:rotate(0deg)}
 }
-
 
 
 
@@ -154,5 +156,16 @@ section a {
     color: white;
     text-decoration: none;
     border: white solid 5px;
+    position: absolute;
+    right: 30%;
+    transform: translateY(-10px);
+}
+
+
+
+section img{
+    max-width: 250px;
+    border-radius: 25px;
+    box-shadow: white 0 0 0 4px, #de541e 0 0 0 11px;
     
 }
