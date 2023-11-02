@@ -44,13 +44,13 @@ section{
 
 
 /* NAVIGATIE BALK*/
-nav {
+nav{
     display: inline-block;
     margin-left: 25px;
     margin-top: 10px;
 }
 
-.navcontainer {
+.navcontainer{
     box-shadow: -5px 7px;
     border-radius: 100px;
     background-color: #96e072;
@@ -58,23 +58,23 @@ nav {
     padding-right: 5px;  
 }
 
-nav div div {
+nav div div{
     display: inline-block;
     padding: 8px;
     font-size: 18px;
 }
 
-nav div a {
+nav div a{
     text-decoration: none;
     color: white;
 }
 
-.orange {
+.orange{
     padding-left: 20px;
     padding-right: 20px;
 }
 
-.selected{
+.selected {
     background-color: #de541e;
     border-radius: 100px;
     font-size: 20px;
@@ -102,7 +102,7 @@ nav div a {
 
 
 /* HOMEPAGE */
-.left1{
+.left1 {
 border-radius: 0px 30px 30px 0px;
 display: block;
 min-width: 250px;
@@ -113,7 +113,7 @@ transform: translateY(40px);
 
 
 
-.right1{
+.right1 {
     border-radius: 30px 0px 0px 30px;
     border-right: 0px;
     display: block;
@@ -123,7 +123,7 @@ transform: translateY(40px);
     transform: translateY(540px);
 }
 
-.left2{
+.left2 {
     border-radius: 0px 30px 30px 0px;
     display: block;
     min-width: 250px;
@@ -132,7 +132,7 @@ transform: translateY(40px);
     transform: translateY(910px);
 }
     
- .right2{
+ .right2 {
     border-radius: 30px 0px 0px 30px;
     border-right: 0px;
     display: block;
@@ -145,7 +145,7 @@ transform: translateY(40px);
 
 
 /* LEES MEER KNOP*/
-section a{
+section a {
     box-shadow: -4px 5px black;
     background-color: #de541e;
     border-radius: 20px;
