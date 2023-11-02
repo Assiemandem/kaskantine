@@ -44,33 +44,32 @@ section{
 
 
 /* NAVIGATIE BALK*/
-nav{
+nav {
     display: inline-block;
     margin-left: 25px;
     margin-top: 10px;
 }
-.navcontainer{
+
+.navcontainer {
     box-shadow: -5px 7px;
     border-radius: 100px;
     background-color: #96e072;
     padding-left: 5px;
-    padding-right: 5px;
-       
+    padding-right: 5px;  
 }
 
-nav div div{
+nav div div {
     display: inline-block;
     padding: 8px;
     font-size: 18px;
-    
 }
 
-nav div a{
+nav div a {
     text-decoration: none;
     color: white;
 }
 
-.orange{
+.orange {
     padding-left: 20px;
     padding-right: 20px;
 }
