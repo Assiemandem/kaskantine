@@ -1,9 +1,9 @@
-/* ALGEMENE OPMAAK */
+/* ALGEMENE OPMAAK ------------------------------------------------------------------------ */ 
 @import url('https://fonts.googleapis.com/css2?family=Grandstander:wght@700&family=Raleway:wght@500&display=swap');
 
 @import url('https://fonts.googleapis.com/css2?family=Dekko&family=Grandstander:wght@100;700&family=Raleway:wght@500&family=Roboto:ital,wght@1,900&display=swap');
 
-html{
+html {
     scroll-behavior: smooth;
 }
 
@@ -46,9 +46,37 @@ section {
     background-color: #508e2f
 }
 
+.images {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 5%;
+    max-width: 90%;
+    border-radius: 3px 25px ;
+    box-shadow: white 0 0 0 4px, #de541e 0 0 0 11px;
+}
 
 
-/* NAVIGATIE BALK*/
+/* ANIMATIES */
+@keyframes pulse {
+    0%  {transform:scale(1.09)}
+    50% {transform:scale(1.13)}
+    100%{transform:scale(1.09)} 
+
+}
+
+@keyframes wiggle {
+    0%  {transform:rotate(0deg);}
+    25% {transform:rotate(1.5deg);}
+    75%{transform:rotate(-1.5deg);}
+    100%{transform:rotate(0deg)}
+}
+
+
+
+
+
+/* NAVIGATIE BALK --------------------------------------------------------------------------- */
 nav {
     display: inline-block;
     margin-left: 15px;
@@ -74,7 +102,7 @@ nav ul a {
     color: white;
 }
 
-.orange{
+.orange {
     padding-left: 20px;
     padding-right: 20px;
 }
@@ -88,24 +116,9 @@ nav ul a {
 
 
 
-/* ANIMATIES */
-  @keyframes pulse {
-    0%  {transform:scale(1.09)}
-    50% {transform:scale(1.13)}
-    100%{transform:scale(1.09)} 
-
-}
-
-@keyframes wiggle {
-    0%  {transform:rotate(0deg);}
-    25% {transform:rotate(1.5deg);}
-    75%{transform:rotate(-1.5deg);}
-    100%{transform:rotate(0deg)}
-}
 
 
-
-/* HOMEPAGE */
+/* HOMEPAGE -----------------------------------------------------------------------------*/
 .left1 {
     border-radius: 0px 30px 30px 0px;
     display: block;
@@ -122,7 +135,7 @@ nav ul a {
     min-width: 250px;
     position: absolute;
     left: 19.55%;
-    transform: translateY(540px);
+    transform: translateY(570px);
 }
 
 .left2 {
@@ -131,7 +144,7 @@ nav ul a {
     min-width: 250px;
     position: absolute;
     right: 20%;
-    transform: translateY(910px);
+    transform: translateY(950px);
 }
     
  .right2 {
@@ -141,12 +154,14 @@ nav ul a {
     min-width: 250px;
     position: absolute;
     left: 19.55%;
-    transform: translateY(1250px);
+    transform: translateY(1300px);
 }
     
 
 
-/* LEES MEER KNOP*/
+
+
+/* LEESMEER KNOPPEN EN TUINIERTIPS KNOP */
 section a {
     box-shadow: -4px 5px black;
     background-color: #de541e;
@@ -157,15 +172,79 @@ section a {
     text-decoration: none;
     border: white solid 5px;
     position: absolute;
-    right: 30%;
+    right: 32%;
     transform: translateY(-10px);
 }
 
 
 
-section img {
-    max-width: 250px;
-    border-radius: 25px;
-    box-shadow: white 0 0 0 4px, #de541e 0 0 0 11px;
-    
+
+
+/*LOGO'S -------------------------------------------------------------------------------------*/
+.logo_circle {
+    position: absolute;
+    width: 80px;
+    border: solid 9px #96e072;
+    background-color: white;
+    border-radius: 120px;
+}
+
+/*ONTDEKPAGINA_LOGOS*/
+#ontdek_logo_1 {
+    left: 62%;
+    transform: translateY(40px);
+}
+
+#ontdek_logo_2 {
+    left: 10%;
+    transform: translateY(570px);
+}
+
+#ontdek_logo_3 {
+    left: 62%;
+    transform: translateY(950px);
+}
+
+#ontdek_logo_4 {
+    left: 10%;
+    transform: translateY(1300px);
+}
+
+
+/*DOELPAGINA_LOGO*/
+#doel_logo {
+    left: 72%;
+    transform: translateY(-475px);
+}
+
+
+/*ACTIPAGINA_LOGOS*/
+#acties_logo_1 {
+    left: 72%;
+    transform: translateY(-830px);
+}   
+
+#acties_logo_2 {
+    left: 72%;
+    transform: translateY(-510px);
+}
+
+#acties_logo_3 {
+    left: 72%;
+    transform: translateY(-700px);
+}
+
+#acties_logo_4 {
+    left: 72%;
+    transform: translateY(-360px);
+}
+
+#acties_logo_5 {
+    left: 72%;
+    transform: translateY(-590px);
+}
+
+#acties_logo_6 {
+    left: 72%;
+    transform: translateY(-440px);
 }
