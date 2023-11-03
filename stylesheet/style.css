@@ -181,7 +181,7 @@ section a {
 
 
 /*LOGO'S -------------------------------------------------------------------------------------*/
-.logo_circle {
+.logocircle {
     position: absolute;
     width: 80px;
     border: solid 9px #96e072;
@@ -190,61 +190,61 @@ section a {
 }
 
 /*ONTDEKPAGINA_LOGOS*/
-#ontdek_logo_1 {
+#ontdeklogo1 {
     left: 62%;
     transform: translateY(40px);
 }
 
-#ontdek_logo_2 {
+#ontdeklogo2 {
     left: 10%;
     transform: translateY(570px);
 }
 
-#ontdek_logo_3 {
+#ontdeklogo3 {
     left: 62%;
     transform: translateY(950px);
 }
 
-#ontdek_logo_4 {
+#ontdeklogo4 {
     left: 10%;
     transform: translateY(1300px);
 }
 
 
 /*DOELPAGINA_LOGO*/
-#doel_logo {
+#doellogo {
     left: 72%;
     transform: translateY(-475px);
 }
 
 
 /*ACTIPAGINA_LOGOS*/
-#acties_logo_1 {
+#actieslogo1 {
     left: 72%;
     transform: translateY(-830px);
 }   
 
-#acties_logo_2 {
+#actieslogo2 {
     left: 72%;
     transform: translateY(-510px);
 }
 
-#acties_logo_3 {
+#actieslogo3 {
     left: 72%;
     transform: translateY(-700px);
 }
 
-#acties_logo_4 {
+#actieslogo4 {
     left: 72%;
     transform: translateY(-360px);
 }
 
-#acties_logo_5 {
+#actieslogo5 {
     left: 72%;
     transform: translateY(-590px);
 }
 
-#acties_logo_6 {
+#actieslogo6 {
     left: 72%;
     transform: translateY(-440px);
 }
