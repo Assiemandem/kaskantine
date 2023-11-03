@@ -47,13 +47,13 @@ section {
 }
 
 .images {
+    max-width: 90%;
+    border-radius: 3px 25px;
+    box-shadow: white 0 0 0 4px, #de541e 0 0 0 11px;
     display: block;
     margin-left: auto;
     margin-right: auto;
     margin-bottom: 5%;
-    max-width: 90%;
-    border-radius: 3px 25px ;
-    box-shadow: white 0 0 0 4px, #de541e 0 0 0 11px;
 }
 
 
@@ -184,7 +184,7 @@ section a {
 .logocircle {
     position: absolute;
     width: 80px;
-    border: solid 9px #96e072;
+    border: solid #96e072 9px; 
     background-color: white;
     border-radius: 120px;
 }
