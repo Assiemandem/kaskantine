@@ -20,13 +20,9 @@ body {
     background-color: #BFFFFF;
 }
 
-h2 {
+h2, h3, a {
     font-family: 'Grandstander';
     color: white;
-}
-
-a {
-    font-family: 'Grandstander';
     font-weight: 600;
 }
 
@@ -46,7 +42,7 @@ section {
     background-color: #508e2f
 }
 
-.images {
+main section img {
     max-width: 90%;
     border-radius: 3px 25px;
     box-shadow: white 0 0 0 4px, #de541e 0 0 0 11px;
@@ -249,7 +245,7 @@ section a {
     transform: translateY(-440px);
 }
 
-#tuinierplaatje {
+#tuinierlogo {
     display: block;
     width: 35%;
     background: white;
