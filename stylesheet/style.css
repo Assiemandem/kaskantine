@@ -13,7 +13,6 @@ header {
 
 header img {
     width: 100%;
-    animation: wiggle 8s ease-in-out infinite ;
 }
 
 body {
@@ -24,6 +23,10 @@ h2, h3, a {
     font-family: 'Grandstander';
     color: white;
     font-weight: 600;
+}
+
+h3{
+    padding-top: 25px;
 }
 
 p {
@@ -61,11 +64,26 @@ main section img {
 
 }
 
-@keyframes wiggle {
-    0%  {transform:rotate(0deg);}
-    25% {transform:rotate(1.5deg);}
-    75%{transform:rotate(-1.5deg);}
-    100%{transform:rotate(0deg)}
+@keyframes upanddown {
+    0% {transform:translateY(-11px)}
+    50%{transform:translateY(-7px)}
+    100%{transform:translateY(-11px)}
+}
+
+
+/* LEESMEER KNOPPEN EN TUINIERTIPS KNOP */
+section a {
+    box-shadow: -4px 5px black;
+    background-color: #de541e;
+    border-radius: 20px;
+    padding: 10px;
+    font-size: 20px;
+    color: white;
+    text-decoration: none;
+    border: white solid 5px;
+    position: absolute;
+    right: 32%;
+    animation: upanddown 3s ease-in-out infinite;
 }
 
 
@@ -153,25 +171,6 @@ nav ul a {
     transform: translateY(1300px);
 }
     
-
-
-
-
-/* LEESMEER KNOPPEN EN TUINIERTIPS KNOP */
-section a {
-    box-shadow: -4px 5px black;
-    background-color: #de541e;
-    border-radius: 20px;
-    padding: 10px;
-    font-size: 20px;
-    color: white;
-    text-decoration: none;
-    border: white solid 5px;
-    position: absolute;
-    right: 32%;
-    transform: translateY(-10px);
-}
-
 
 
 
