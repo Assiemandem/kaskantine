@@ -186,7 +186,7 @@ section a {
     width: 80px;
     border: solid #96e072 9px; 
     background-color: white;
-    border-radius: 120px;
+    border-radius: 100%;
 }
 
 /*ONTDEKPAGINA_LOGOS*/
@@ -231,7 +231,7 @@ section a {
 
 #actieslogo3 {
     left: 72%;
-    transform: translateY(-700px);
+    transform: translateY(-418px);
 }
 
 #actieslogo4 {
@@ -247,4 +247,16 @@ section a {
 #actieslogo6 {
     left: 72%;
     transform: translateY(-440px);
+}
+
+#tuinierplaatje {
+    display: block;
+    width: 35%;
+    background: white;
+    border-radius: 15px 30px;
+    border: solid #96e072 8px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 15%;
+    box-shadow: black -5px 3px;
 }
