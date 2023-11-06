@@ -47,8 +47,9 @@ section {
 
 main section img {
     max-width: 90%;
-    border-radius: 3px 25px;
-    box-shadow: white 0 0 0 4px, #de541e 0 0 0 11px;
+    border-radius: 15px 40px;
+    border: #de541e solid 8px;
+    box-shadow: black -5px 4px;
     display: block;
     margin-left: auto;
     margin-right: auto;
@@ -216,12 +217,12 @@ nav ul a {
 /*ACTIPAGINA_LOGOS*/
 #actieslogo1 {
     left: 72%;
-    transform: translateY(-830px);
+    transform: translateY(-850px);
 }   
 
 #actieslogo2 {
     left: 72%;
-    transform: translateY(-510px);
+    transform: translateY(-525px);
 }
 
 #actieslogo3 {
@@ -236,7 +237,7 @@ nav ul a {
 
 #actieslogo5 {
     left: 72%;
-    transform: translateY(-590px);
+    transform: translateY(-600px);
 }
 
 #actieslogo6 {
