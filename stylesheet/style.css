@@ -23,6 +23,7 @@ h2, h3, a {
     font-family: 'Grandstander';
     color: white;
     font-weight: 600;
+    text-shadow: black -1.3px 1.3px ;
 }
 
 h3{
@@ -237,7 +238,7 @@ nav ul a {
 
 #actieslogo5 {
     left: 72%;
-    transform: translateY(-600px);
+    transform: translateY(-680px);
 }
 
 #actieslogo6 {
@@ -258,3 +259,4 @@ nav ul a {
     margin-bottom: 15%;
     box-shadow: black -5px 3px;
 }
+
